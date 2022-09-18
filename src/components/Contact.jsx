@@ -2,13 +2,13 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div className="p-12">
+        <div name='contact me' className="p-12">
 
-            <section class="bg-white py-20 lg:py-[120px] overflow-hidden relative z-10 ">
-                <div class="container">
-                    <div class="flex flex-wrap lg:justify-between -mx-4">
+            <section class="bg-white py-20 lg:py-[120px] overflow-hidden relative z-10 justify-center align-middle m-auto ">
+                <div class="container ">
+                    <div class="flex flex-wrap  lg:justify-between -mx-4">
                         <div class="w-full lg:w-1/2 xl:w-6/12 px-4">
-                            <div class="max-w-[570px] mb-12 lg:mb-0">
+                            <div class="max-w-[570px] mb-12 lg:mb-0 justify-center m-auto">
                                 <h2
                                     class="
                       text-dark
@@ -139,13 +139,13 @@ const Contact = () => {
                                         <h4 class="font-bold text-dark text-xl mb-1">
                                             Email Address
                                         </h4>
-                                        <p class="text-base text-body-color">info@yourdomain.com</p>
+                                        <p class="text-base text-body-color">harshitcba@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
-                            <div class="bg-white relative rounded-lg p-8 sm:p-12 shadow-lg">
+                        <div class="w-full  lg:w-1/2 ">
+                            <div class="bg-white ml-20 relative rounded-lg p-8 sm:p-12 shadow-lg">
                                 <form
                                     action="https://getform.io/f/1e0e9125-35eb-41d3-bf8d-424d7f6f5e62"
                                     method="POST"

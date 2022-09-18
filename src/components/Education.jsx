@@ -14,12 +14,12 @@ const Education = () => {
 
       <div className='space-y-10 hidden md:flex flex-col md:mb-24'>
 
-        <div className='flex p-2 text-sm ml-8 mr-4 px-2 md:mx-24 md:px-6 py-2 bg-gradient-to-br from-cyan-300 to to-blue-300 hover:scale-105 shadow-sm  duration-300 rounded-md md:p-6 '>
+        <div className='flex p-2 text-sm ml-8 mr-4 px-2 md:px-6 py-2 bg-gradient-to-br from-cyan-300 to to-blue-300 hover:scale-105 shadow-sm  duration-300 rounded-md md:p-6 '>
 
           <div className='flex flex-col md:mx-10 space-y-2 font-bold'>
 
             <div>
-              Bachelor of Technology (B.Tech) - Computer Engineering
+            Computer Science and Engineering with Specialization in AI and ML
             </div>
             <div className='md:mx-4 font-semibold'>
               (Vellore Institute of Technology, Bhopal)
@@ -44,7 +44,7 @@ const Education = () => {
 
 
 
-        <div className='flex p-2 text-sm ml-8 mr-4 px-2 md:mx-24 md:px-6 py-2 bg-gradient-to-br from-cyan-300 to to-blue-300 hover:scale-105 shadow-sm duration-300 rounded-md md:p-6 '>
+        <div className='flex p-2 text-sm ml-8 mr-4 px-2  md:px-6 py-2 bg-gradient-to-br from-cyan-300 to to-blue-300 hover:scale-105 shadow-sm duration-300 rounded-md md:p-6 '>
 
 
           <div className='flex flex-col md:mx-10 space-y-2 font-bold'>
@@ -65,7 +65,7 @@ const Education = () => {
               April 2018 - June 2019
             </div>
             <div className='font-semibold md:mx-4'>
-              (Percentage-96.2%)
+              (Percentage-93.2%)
             </div>
 
           </div>
@@ -76,7 +76,7 @@ const Education = () => {
 
 
 
-        <div className='flex p-2 text-sm ml-8 mr-4 px-2 md:mx-24 md:px-6 py-2 bg-gradient-to-br from-cyan-300 to to-blue-300 hover:scale-105 shadow-sm  duration-300 rounded-md md:p-6 '>
+        <div className='flex p-2 text-sm ml-8 mr-4 px-2 md:px-6 py-2 bg-gradient-to-br from-cyan-300 to to-blue-300 hover:scale-105 shadow-sm  duration-300 rounded-md md:p-6 '>
 
 
           <div className='flex flex-col md:mx-10 space-y-2 font-bold'>
@@ -97,7 +97,7 @@ const Education = () => {
               April 2016 - June 2017
             </div>
             <div className='font-semibold md:mx-4'>
-              (Percentage - 96.2%)
+              (Percentage - 86.2%)
             </div>
 
           </div>
@@ -111,7 +111,7 @@ const Education = () => {
 
         <div className=' bg-gradient-to-r border-2 from-cyan-200 to-cyan-300 text-black shadow-md shadow-zinc-500 m-3 rounded-md ml-8 mr-4 text-center p-2'>
           <div>
-            Bachelor of Science - Computer Engineering
+          Computer Science and Engineering with Specialization in AI and ML
           </div>
           <div className='text-center'>
             (Vellore Institute of Technology, Bhopal)
@@ -140,7 +140,7 @@ const Education = () => {
           </div>
 
           <div className='p-1 text-center '>
-            (Percentage-96.2%)
+            (Percentage-93.2%)
           </div>
         </div>
 
@@ -157,7 +157,7 @@ const Education = () => {
           </div>
 
           <div className='p-1 text-center '>
-            (Percentage-96.2%)
+            (Percentage-86.2%)
           </div>
         </div>
 

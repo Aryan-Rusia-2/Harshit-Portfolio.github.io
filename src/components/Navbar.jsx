@@ -44,9 +44,9 @@ const Navbar = () => {
 
     return (
 
-        <div className=' m-2 p-2 z-10'>
+        <div className=' m-2 p-2 z-20'>
 
-            <div className='flex flex-row space-x-8 justify-between'>
+            <div className='flex flex-row space-x-8 justify-between '>
 
 
                 <div className="logo text-xl sm:text-2xl">
@@ -83,7 +83,7 @@ const Navbar = () => {
 
 
                 {nav && (
-                    <ul className="flex fixed flex-col max-h-screen h-screen justify-center space-y-7 items-center top-0 left-0 w-full bg-gray-50">
+                    <ul className="flex flex-col max-h-screen h-screen fixed justify-center space-y-7 items-center top-0 left-0 w-full bg-gray-50">
                         {links.map(({ id, link }) => (
                             <li
                                 key={id}
@@ -107,6 +107,7 @@ const Navbar = () => {
 
 
             </div>
+
         </div>
     )
 }
