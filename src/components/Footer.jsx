@@ -64,7 +64,7 @@ const Footer = () => {
 
             <div class="text-center p-6 bg-gray-100">
                 <span>© 2022 Copyright:</span>
-                <a class="text-gray-600 font-semibold" >Harshit Gupta</a>
+                <a href="https://www.google.com" class="text-gray-600 font-semibold" >Harshit Gupta</a>
             </div>
         </footer>
 
