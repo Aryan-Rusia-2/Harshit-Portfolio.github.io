@@ -25,7 +25,7 @@ const Navbar = () => {
         },
         {
             id: 4,
-            link: "my work",
+            link: "nature photography",
         },
         {
             id: 5,
@@ -44,9 +44,9 @@ const Navbar = () => {
 
     return (
 
-        <div className=' m-2 p-2'>
+        <div className=' m-2 p-2 z-10'>
 
-            <div className='flex flex-row space-x-2 justify-between'>
+            <div className='flex flex-row space-x-8 justify-between'>
 
 
                 <div className="logo text-xl sm:text-2xl">
@@ -54,19 +54,16 @@ const Navbar = () => {
                 </div>
 
 
-                <ul className="hidden md:flex ">
+                <ul className="hidden md:flex space-x-3 lg:space-x-12 ">
                     {links.map(({ id, link }) => (
                         <li
                             key={id}
-                            className="px-4 md:flex cursor-pointer capitalize text-md justify-start mr-10 text-black hover:scale-125 duration-300"
+                            className="px-4 md:flex hover:drop-shadow-2xl cursor-pointer capitalize text-md lg:text-lg justify-start text-black hover:scale-125 duration-300"
                         >
                             <Link to={link} smooth duration={500}>
                                 {link}
                             </Link>
                         </li>
-
-
-
 
                     ))}
 
@@ -78,7 +75,7 @@ const Navbar = () => {
                 <div
 
                     onClick={() => setNav(!nav)}
-                    className="cursor-pointer pr-4 z-10 text-black dark:text-gray-500 md:hidden">
+                    className="cursor-pointer pr-4 z-10 text-black md:hidden">
 
                     {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
 
@@ -86,7 +83,7 @@ const Navbar = () => {
 
 
                 {nav && (
-                    <ul className="flex flex-col justify-center space-y-7 items-center absolute top-0 left-0 w-full h-screen bg-gray-50">
+                    <ul className="flex fixed flex-col max-h-screen h-screen justify-center space-y-7 items-center top-0 left-0 w-full bg-gray-50">
                         {links.map(({ id, link }) => (
                             <li
                                 key={id}
