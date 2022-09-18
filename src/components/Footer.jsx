@@ -18,7 +18,7 @@ const Footer = () => {
                                 </path>
                             </svg>
                         </a>
-                        <a href="#!" class="mr-6 text-gray-600 hover:scale-125 duration-300">
+                        <a class="mr-6 text-gray-600 hover:scale-125 duration-300">
                             <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
                                 class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                 <path fill="currentColor"
@@ -26,7 +26,7 @@ const Footer = () => {
                                 </path>
                             </svg>
                         </a>
-                        <a href="#!" class="mr-6 text-gray-600 hover:scale-125 duration-300">
+                        <a  class="mr-6 text-gray-600 hover:scale-125 duration-300">
                             <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google"
                                 class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512">
                                 <path fill="currentColor"
@@ -34,7 +34,7 @@ const Footer = () => {
                                 </path>
                             </svg>
                         </a>
-                        <a href="#!" class="mr-6 text-gray-600 hover:scale-125 duration-300">
+                        <a class="mr-6 text-gray-600 hover:scale-125 duration-300">
                             <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
                                 class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                                 <path fill="currentColor"
@@ -42,7 +42,7 @@ const Footer = () => {
                                 </path>
                             </svg>
                         </a>
-                        <a href="#!" class="mr-6 text-gray-600 hover:scale-125 duration-300">
+                        <a class="mr-6 text-gray-600 hover:scale-125 duration-300">
                             <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
                                 class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 448 512">
@@ -51,7 +51,7 @@ const Footer = () => {
                                 </path>
                             </svg>
                         </a>
-                        <a href="#!" class="text-gray-600 hover:scale-125 duration-300">
+                        <a class="text-gray-600 hover:scale-125 duration-300">
                             <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
                                 class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
                                 <path fill="currentColor"
