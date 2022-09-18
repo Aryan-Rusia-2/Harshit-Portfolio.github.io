@@ -10,7 +10,7 @@ const Footer = () => {
                 </div>
                 <div class="flex justify-center space-x-14 mx-auto">
                     <a href="https://www.google.com" class=" text-gray-600 hover:scale-125 duration-300">
-                        <svg a  ria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
+                        <svg a ria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
                             class="w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 320 512">
                             <path fill="currentColor"
