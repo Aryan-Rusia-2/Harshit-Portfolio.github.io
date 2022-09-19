@@ -26,7 +26,7 @@ import pic10 from "../assets/10.jpg"
 const Work = () => {
     return (
         <>
-            <div className="px-5 md:px-10 pt-16">
+            <div name='Photos' className="px-5 md:px-10">
 
                 <div className="mx-10 md:mx-32 mb-8">
                     <p className="text-2xl md:text-4xl text-center font-bold text-black border-black dark:border-gray-500 ">

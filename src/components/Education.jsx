@@ -2,7 +2,7 @@ import React from 'react'
 
 const Education = () => {
   return (
-    <div name="education" className='bg-white px-5 md:px-10 pt-16'>
+    <div name="education" className='bg-white px-5 md:px-10 pb-16'>
 
 
       <div className="mx-10 md:mx-32 mb-8 mt-14">
@@ -14,7 +14,7 @@ const Education = () => {
 
       <div className='space-y-10 hidden md:flex flex-col md:mb-24'>
 
-        <div className='flex p-2 text-sm ml-8 mr-4 px-2 md:px-6 py-2 bg-gradient-to-br from-cyan-300 to to-blue-300 hover:scale-105 shadow-sm  duration-300 rounded-md md:p-6 '>
+        <div className='flex p-2 text-sm ml-8 mr-4 border-2 border-black px-2 md:px-6 py-2 bg-gradient-to-br from-cyan-300 to to-blue-300 hover:scale-105 shadow-sm  duration-300 rounded-md md:p-6 '>
 
           <div className='flex flex-col md:mx-10 space-y-2 font-bold'>
 
@@ -44,7 +44,7 @@ const Education = () => {
 
 
 
-        <div className='flex p-2 text-sm ml-8 mr-4 px-2  md:px-6 py-2 bg-gradient-to-br from-cyan-300 to to-blue-300 hover:scale-105 shadow-sm duration-300 rounded-md md:p-6 '>
+        <div className='flex p-2  border-2 border-black text-sm ml-8 mr-4 px-2  md:px-6 py-2 bg-gradient-to-br from-cyan-300 to to-blue-300 hover:scale-105 shadow-sm duration-300 rounded-md md:p-6 '>
 
 
           <div className='flex flex-col md:mx-10 space-y-2 font-bold'>
@@ -76,7 +76,7 @@ const Education = () => {
 
 
 
-        <div className='flex p-2 text-sm ml-8 mr-4 px-2 md:px-6 py-2 bg-gradient-to-br from-cyan-300 to to-blue-300 hover:scale-105 shadow-sm  duration-300 rounded-md md:p-6 '>
+        <div className='flex p-2  border-2 border-black text-sm ml-8 mr-4 px-2 md:px-6 py-2 bg-gradient-to-br from-cyan-300 to to-blue-300 hover:scale-105 shadow-sm  duration-300 rounded-md md:p-6 '>
 
 
           <div className='flex flex-col md:mx-10 space-y-2 font-bold'>

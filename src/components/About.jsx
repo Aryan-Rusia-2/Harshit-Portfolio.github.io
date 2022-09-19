@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='px-5 md:px-10 pt-16'>
+    <div name="about" className='px-5 md:px-10 pt-16 pb-16'>
 
 
       <div className="mx-10 md:mx-32 mb-8">
@@ -12,7 +12,7 @@ const About = () => {
       </div>
 
 
-      <div className='border-4 border-gray-700 bg-slate-100 hover:bg-slate-200 hover:scale-105 hover:shadow-lg duration-300 hover:shadow-cyan-400'>
+      <div className='border-2 shadow-lg shadow-cyan-200  border-gray-700 bg-slate-100 hover:bg-slate-200 hover:scale-105 hover:shadow-2xl duration-300 hover:shadow-cyan-400'>
 
 
 

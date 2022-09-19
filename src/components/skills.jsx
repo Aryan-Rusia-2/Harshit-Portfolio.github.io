@@ -74,13 +74,13 @@ const Experience = () => {
 
   return (
     <div
-      name="experience"
-      className=" bg-white w-full p-10"
+      name="skills"
+      className="  bg-white w-full p-10 pb-16"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col text-black justify-center w-full h-full">
         <div>
           <p className="text-2xl md:text-4xl  font-bold p-2 text-center pb-4">
-            Experience
+            Skills
           </p>
 
         </div>
